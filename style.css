@@ -1,0 +1,68 @@
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+html {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
+}
+body {
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.5;
+  background-color: rgb(227, 233, 238);
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+.space-between {
+  justify-content: space-between;
+}
+.container {
+  max-width: 420px;
+  width: 100%;
+  margin: 5rem auto;
+  border-radius: 5px;
+  border: 1px solid rgb(231, 105, 105);
+  padding: 2rem;
+  background-color: rgb(240, 219, 219);
+}
+#text {
+  width: 95%;
+  padding: 0.6rem;
+  margin: 1rem auto;
+  border-radius: 5px;
+  border: none;
+}
+
+p {
+  cursor: pointer;
+}
+input[type='checkbox'] {
+  cursor: pointer;
+}
+ul {
+  padding: 10px;
+}
+li {
+  padding: 5px;
+  display: flex;
+  border-bottom: 1px dashed black;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.6rem;
+  background-color: burlywood;
+  margin-bottom: 1rem;
+}
+button {
+  padding: 0.3rem 0.7rem;
+  border: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
